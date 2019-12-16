@@ -1,0 +1,14 @@
+    <div class='wrapper'>
+    <div name='Login' align='center' id='login' >
+    <h1>Login</h1>
+      <form #userlogin = "ngForm" (ngSubmit) = "onClickLogin(userlogin.value)"> 
+      <input type="text"  name='username' placeholder="Username" required ngModel><br>
+      <input type='password'  name='password' placeholder="Password" required ngModel><br>
+      <input type="submit" name="button" value="Login" >
+      
+    </form>
+    <p *ngIf="login_error"><font color='red'> Unable to Login with Invalid Credentials</font></p>
+    <p *ngIf="server_error"><font color='red'> Something went wrong Try Again...</font></p>
+    </div>
+
+</div>

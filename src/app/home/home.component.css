@@ -1,0 +1,20 @@
+h3{
+    
+color: white;
+font-style: italic;
+padding-left: 70px;
+}
+#welcome_msg_id{
+    background: linear-gradient(45deg, black, transparent);
+    padding-top: 5px;
+}
+#logout{
+    padding-top: 5px;
+    border: 2px solid;
+    border-radius: 5px;
+    background: linear-gradient(45deg, black, transparent);
+}
+#group{
+    padding-right: 800px;
+    padding-left: 150px;
+}
